@@ -2,13 +2,52 @@ package com.company;
 
 public class Dog {
 
-    String name = "Rex";
+    private String breed ;
+    private String name;
+    private int age;
+    private String color;
+    private float weight;
+    private int heightInCm;
 
-    String breed = "Labrador";
-    int age = 3;
-    String color = "yellow/brown";
-    float weight = 15.4f;
-    int heightInCm = 35;
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+
+    public void setAge(int age){
+        this.age = age;
+    }
+    public int getAge(){
+        return age;
+    }
+
+
+    public void setHeightInCm(int heightInCm){
+        this.heightInCm = heightInCm;
+    }
+    public int getHeightInCm(){
+        return heightInCm;
+    }
+
+
+    public void setColor(String color){
+        this.color = color;
+    }
+    public String getColor(){
+        return color;
+    }
+
+
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+    public int getWeight(){
+        return (int) weight;
+    }
+
 
 
     public void bark(){
