@@ -2,7 +2,7 @@ package TemaIfElse;
 
 public class Main {
     public static void main(String[] args) {
-        LogicalOp op = new LogicalOp();
+        LogicalOp3 op = new LogicalOp3();
 
         int biggest = op.checkBiggerNumber(2,3);
         System.out.println("The bigger number is: "+ biggest);
@@ -31,6 +31,10 @@ public class Main {
         int highestNo = op.maxofthree(7,10,300);
         System.out.println(highestNo);
 
+        int getHigherNumber = op.getHigherNumber(10, 20);
+        System.out.println(getHigherNumber);
+        int getLowerNumber = op.getLowerNumber(10, 20);
+        System.out.println(getLowerNumber);
 
 
 

@@ -1,6 +1,8 @@
-package com.company;
+package AnimalRescue;
 
-public class Veterinarian {
+import AnimalRescue.objects.HumanObj;
+
+public class Veterinarian extends HumanObj {
 
     String name = "Doctor";
 

@@ -1,6 +1,23 @@
 package TemaIfElse;
 
-public class LogicalOp {
+public class LogicalOp3 {
+
+    public int getHigherNumber(int first, int second) {
+
+        if (first > second) {
+            return first;
+        } else {
+            return second;
+        }
+    }
+
+    public int getLowerNumber(int first, int second) {
+        if (first < second) {
+            return first;
+        } else {
+            return second;
+        }
+    }
 
     //Pentru a testa aceasta metoda, mergeti in metoda main(), din clasa Main,
     // si construiti un obiect de tip LogicalOp, si apelati metoda cu valori.
@@ -144,7 +161,6 @@ public class LogicalOp {
 
 
      }
-
 
 
 
