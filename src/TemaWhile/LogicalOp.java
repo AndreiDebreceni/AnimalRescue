@@ -135,7 +135,7 @@ public class LogicalOp {
                 System.out.print(i);
             }
             System.out.print(" ");
-            if (i % 11 == 0) {
+            if (i % 9 == 0) {
                 System.out.println();
             }
             i++;
