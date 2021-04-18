@@ -12,6 +12,9 @@ public class HumanObj {
     private int money;
     private String pet;
 
+    public void speack(){
+        System.out.println("Talk!");}
+
     public String getName() {
         return name;
     }
@@ -83,4 +86,6 @@ public class HumanObj {
     public void setPet(String pet) {
         this.pet = pet;
     }
+
+
 }

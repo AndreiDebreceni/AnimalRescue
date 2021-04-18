@@ -9,6 +9,10 @@ public class AnimalObj {
     private int heightInCm;
     private int happines;
 
+    public void speack(){
+        System.out.println("Mac!Mac!");
+    }
+
     public int getHappines() {
         return happines;
     }
@@ -65,9 +69,7 @@ public class AnimalObj {
         this.heightInCm = heightInCm;
     }
 
-    public void sleep(){
-        System.out.println("ZzzZZzz snores");
-    }
+
 
     public void eat(int value){
         weight+=value;
@@ -75,6 +77,8 @@ public class AnimalObj {
     public void play(int value){
         happines+=value;
     }
+
+
 
 
 }

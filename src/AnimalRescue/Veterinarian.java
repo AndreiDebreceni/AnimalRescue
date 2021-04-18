@@ -12,4 +12,8 @@ public class Veterinarian extends HumanObj {
 
     public void givedrugs(int value){ drugsprice *=value; }
 
+    @Override
+    public void speack() {
+        System.out.println("Welcome !");
+    }
 }

@@ -25,13 +25,17 @@ public class AppMain {
         System.out.println("Pe fetita o cheama " +anna.getName());
 
         Duck duffy = new Duck();
-        duffy.mac();
+        duffy.speack();
         duffy.setName("Duffy");
         System.out.println("Pe ratusca o cheama " +duffy.getName());
 
         System.out.println(anna.getName()+ " s-a dus la veterinarul "+vet.getName()+" deoarece cainele ei "+dog.getName()+" in varsta de "+dog.getAge()+
                 " ani, a muscat-o ratusca "+duffy.getName()+" pentru ca a vrut sa-i manance "+food.getType()+" ! ");
-        duffy.mac();
+        duffy.speack();
+        anna.speack();
+        vet.speack();
+        dog.speack();
+
 
 
 
