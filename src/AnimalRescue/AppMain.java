@@ -35,6 +35,8 @@ public class AppMain {
         anna.speack();
         vet.speack();
         dog.speack();
+        Parrot Lulu = new Parrot();
+        Lulu.speack();
 
 
 

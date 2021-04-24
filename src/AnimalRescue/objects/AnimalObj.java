@@ -1,6 +1,6 @@
 package AnimalRescue.objects;
 
-public class AnimalObj {
+public abstract class AnimalObj {
     private String breed ;
     private String name;
     private int age;
@@ -10,7 +10,7 @@ public class AnimalObj {
     private int happines;
 
     public void speack(){
-        System.out.println("Mac!Mac!");
+        System.out.println("Animal sound");
     }
 
     public int getHappines() {

@@ -27,7 +27,7 @@ public class Main {
 //2
         //System.out.println(op.evenNum(myIntList));
 //3
-        System.out.println(op.sortNumbers(myIntList));
+       // System.out.println(op.sortNumbers(myIntList));
 
 
 

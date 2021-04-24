@@ -1,7 +1,7 @@
 package AnimalRescue.objects;
 
 
-public class HumanObj {
+public abstract class HumanObj {
     private String name;
     private int age;
     private String ocupation;

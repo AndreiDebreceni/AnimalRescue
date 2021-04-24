@@ -26,12 +26,12 @@ public class LogicalOp {
     //Scrieti o metoda Java care sa primeasca parametru o Lista nesortata,
     // si sa returneze Lista sortata crescator.
 
-    public List sortNumbers(List l){
-        for(int i=0; i<l.size();i++ ) {
-            (l);
-        }
-        return l;
-    }
+    //public List sortNumbers(List l){
+       // for(int i=0; i<l.size();i++ ) {
+            //(l);
+       // }
+        //return l;
+    //}
 
 
 

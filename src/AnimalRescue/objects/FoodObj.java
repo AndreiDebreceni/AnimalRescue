@@ -1,6 +1,6 @@
 package AnimalRescue.objects;
 
-public class FoodObj {
+public abstract class FoodObj {
 
     private String type;
     private int quantity;
