@@ -28,7 +28,7 @@ public class LogicalOp {
 
     public List sortNumbers(List l){
         for(int i=0; i<l.size();i++ ) {
-            Collections.sort(l);
+            (l);
         }
         return l;
     }
