@@ -5,8 +5,11 @@ import AnimalRescue.objects.AnimalObj;
 public class Dog extends AnimalObj {
 
 
-    public void speack(){ System.out.println("Ham!");
+    @Override
+    public void speack() {
+        System.out.println("HamHam!");
     }
+}
 
 
 

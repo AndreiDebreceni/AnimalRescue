@@ -12,8 +12,7 @@ public abstract class HumanObj {
     private int money;
     private String pet;
 
-    public void speack(){
-        System.out.println("Talk!");}
+    public abstract void speack();
 
     public String getName() {
         return name;

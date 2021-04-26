@@ -9,9 +9,7 @@ public abstract class AnimalObj {
     private int heightInCm;
     private int happines;
 
-    public void speack(){
-        System.out.println("Animal sound");
-    }
+    public abstract void speack();
 
     public int getHappines() {
         return happines;
