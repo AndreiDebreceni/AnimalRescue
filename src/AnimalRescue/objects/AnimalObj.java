@@ -69,9 +69,8 @@ public abstract class AnimalObj {
 
 
 
-    public void eat(int value){
-        weight+=value;
-    }
+    public abstract void eat(int value);
+
     public void play(int value){
         happines+=value;
     }

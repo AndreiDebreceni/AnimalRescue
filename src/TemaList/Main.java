@@ -33,7 +33,7 @@ public class Main {
 //3
         //op.addToList2(myIntList, 27);
 //4
-        //op.invertList(myStrList);
+        op.invertList(myStrList);
 //5
         //op.addToPozition(myStrList, 3, "autobus");
 //6
@@ -41,7 +41,7 @@ public class Main {
 //6
         //op.showPozElement(myStrList);
 //7
-        System.out.println(op.getBigNum(myIntList));
+       // System.out.println(op.getBigNum(myIntList));
 
 
 

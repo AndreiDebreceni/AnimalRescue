@@ -36,13 +36,13 @@ public class LogicalOp {
     // toate valorile din lista, fiecare pe rand nou, pornind de la numarul intreg primit ca si parametru.
 
     public void addToList2(List<Integer> list , int number){
-        list.add(number);
+        list.add(0 ,number);
         for (Integer element : list)
         System.out.println(element);
     }
 
 
-    //Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
+    //4Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
     // toate valorile din lista, dar invers(de la capat la inceput).
 
     public void invertList(List list){
