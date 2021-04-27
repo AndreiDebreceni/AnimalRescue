@@ -33,7 +33,7 @@ public class Main {
 //3
         //op.addToList2(myIntList, 27);
 //4
-        op.invertList(myStrList);
+        op.invertList(myIntList);
 //5
         //op.addToPozition(myStrList, 3, "autobus");
 //6

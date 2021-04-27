@@ -45,7 +45,7 @@ public class LogicalOp {
     //4Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
     // toate valorile din lista, dar invers(de la capat la inceput).
 
-    public void invertList(List list){
+    public void invertList(List<Integer> list){
         List revList = new ArrayList();
         for (int i = list.size() -1; i >= 0; i--) {
           revList.add(list.get(i));
